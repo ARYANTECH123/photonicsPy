@@ -1,0 +1,7 @@
+* optiSPICE netlist
+
+gc in id=1
+mzi in out l1=150e-6 l2=50e-6
+gc out id=3
+
+.sweep input=1 output=3 n1=1500e-9 n2=1600e-9
